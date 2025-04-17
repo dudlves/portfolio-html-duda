@@ -31,20 +31,15 @@ nav a:hover {
   text-decoration: none;
 }
 
-
-
-.about-container{
+.about-container,
+#services,
+.services-container,
+.container {
   padding: 5px 20px;
   max-width: 1000px;
   margin: 0 auto;
 }
 
-#services{
-  padding: 5px 20px;
-  max-width: 1000px;
-  margin: 0 auto;
-  text-align: center;
-}
 
 .services-container{
    padding: 5px;
@@ -70,12 +65,6 @@ nav a:hover {
 
 .services-container> p:hover {
   transform: scale(1.05);
-}
-.container {
-  padding: 20px;
-  max-width: 1000px;
-  margin: 0 auto;
-  
 }
 
 #projects{
